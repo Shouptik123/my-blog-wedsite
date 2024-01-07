@@ -1,0 +1,17 @@
+footer{
+    margin:  50px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+
+
+th,td{
+    border: 1px solid;
+    padding: 10px;
+}
+
+label{
+    display: block;
+}

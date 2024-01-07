@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/nav.css">
+
+    <style>
+        label{
+            display: block;
+            margin: 15px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="detail.html">DETAIL</a></li>
+                <li><a href="contactus.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+            <h2> PLEASE CONTACT US</h2>
+            <form >
+
+                <label for="YOUR NAME">YOUR NAME:
+                    <input type="text" placeholder="YOUR NAME"> <!-- LABEL 1-->
+                </label>
+
+                <label for="your age">YOUR AGE:
+                    <input type="age" placeholder="age">
+                </label>
+
+
+                <label for="email">YOUR EMAIL:                <!--label 2-->
+                    <input type="email" placeholder="your email">
+                </label>
+
+                <label for="phone number">YOUR PHONE NUMBER:
+                    <input type="phone number" placeholder="phone number">
+                </label>
+
+
+
+
+                <fieldset><!--fieldset 1-->
+
+                    <legend>DAYS OF YOUR TOUR</legend> <!--for secection-->
+                    <label for="1 day family/ group tour">
+                         <input type="radio" name="service" id="1 day family/ group tour">1 day family/ group tour
+                    </label>
+
+                    <label for="2day family or group tour">
+                        <input type="radio" name="service" id="2day family or group tour">2day family or group tour
+                   </label>
+
+                   <label for="3day family or group tour">
+                    <input type="radio" name="service" id="3day family or group tour">3day family or group tour
+               </label>
+
+               <label for="Company tour">
+                <input type="radio" name="service" id="Company tour">Company tour
+                </label>
+
+                <label for="individual tour">
+                    <input type="radio" name="service" id="individual tour">Company tour
+                    </label>         
+
+                 </fieldset>
+
+                <fieldset><!-- fieldset 2-->
+                    <legend> NUMBER OF person</legend>
+
+                 <label for="min 2 riders">
+                    <input type="checkbox" name="conditions" id="min 2 riders">min 2 riders
+                 </label>
+
+                 <label for="min 4 riders">
+                 <input type="checkbox" name="conditions" id="min 24riders">min 4 riders
+                 </label>
+
+
+
+                </fieldset>
+
+                <fieldset><!--fieldset 3-->
+                    <legend> leave youe messege</legend>
+                    <textarea name="your messege" id="" cols="30" rows="10"></textarea>
+
+                </fieldset>
+
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+            
+
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p><small>Copyright © 2024 y Travel Blog
+            Powered by Reggio Digital</small></p>
+    </footer>
+    
+</body>
+</html>
